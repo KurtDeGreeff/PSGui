@@ -1,5 +1,5 @@
 # PSGui
-A graphical user interphase for launching powershell commands including asynchromously executed and tracked jobs.
+A graphical user interphase for launching powershell commands including asynchronously executed and tracked jobs.
 
 # DESCRIPTION
 
