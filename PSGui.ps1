@@ -6,7 +6,7 @@
     It makes executing and keeping track of all executed commands quite a bit easier,
     especially if the user does not have a lot of powershell knowledge.
 
-    Select a command, fill in all required data and klick on execute.
+    Select a command, fill in all required data and click execute.
     A double click at the finished (running or failed job) shows the output of the job.
     Right clicking on a not running job will delete it.
 .EXAMPLE
@@ -18,7 +18,7 @@
     AUTHOR:
         Dominik Schmidt
     VERSION:
-        1.0
+        1.3
     CHANGELOG:
         V1.0 (07.03.2017; DS): First version
         V1.1 (10.03.2017; DS): Shift-Clicking on a datagridview entry will pipe the output of the job to a Out-GridView (will do nothing, if job has no results)
@@ -30,8 +30,8 @@
         2. Drop all module files with functions that you want to use in that subfolder
         3. Create a text file in that subfolder and call it "commands.txt" (see: $script:commandsfile)
         4. Fill that text file with one command name per line (can be commands from the modules or default commands like Test-Connection)
-        4. ???
-        5. Profit
+        5. ???
+        6. Profit
     TODO:
         - What about commands with dependencies in other modules or modules that can only be run in a specified drive? (like the sccm commandlets) -> use #Requires: https://technet.microsoft.com/de-de/library/hh847765.aspx
         - Display default values as cue text instead of variable type (how to get them though???)
