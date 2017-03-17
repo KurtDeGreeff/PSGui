@@ -14,6 +14,10 @@ Right clicking on a not running job will delete it.
 The gui features full keyboard support and can be used without mouse input.
 Escape to close, enter to open results, delete to remove jobs.
 
+# IMAGES
+
+http://imgur.com/a/N1tez
+
 # SETUP:
 1. Drop all module files (.psm1) with functions that you want to use in the subfolder "PSGui".
 2. Edit the text file "commands.txt" and fill in 1 command per line that you want to use in the interface. You can use default functions that powreshell provides (Like "Test-Connection"), or those from your modules.
