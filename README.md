@@ -17,5 +17,7 @@ Escape to close, enter to open results, delete to remove jobs.
 # SETUP:
 1. Drop all module files (.psm1) with functions that you want to use in the subfolder "PSGui".
 2. Edit the text file "commands.txt" and fill in 1 command per line that you want to use in the interface. You can use default functions that powreshell provides (Like "Test-Connection"), or those from your modules.
+3. If you want to show the gui without ever having tu open a powershell yourself you can create a shortcut in the same folder with the destination 
+    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -command "Write-Host 'Starting...'; .\PSGui.ps1; exit"
 3. ???
 4. Profit
